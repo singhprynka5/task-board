@@ -1,13 +1,95 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.header {
+  color: Black;
+  font-size: 40px;
+  padding: 20px 0;
+  border-bottom: 2px solid grey;
+  text-align: center;
+}
+
+.board {
+  margin: 20px;
+}
+
+.add-list {
+  width: 244px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.list-form {
+  background-color: #ebecf0;
+  padding: 10px;
+}
+
+.add-list-btn {
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.list-group {
+  width: 322px;
+  margin: 20px;
+  height: fit-content;
+}
+
+.btn-close {
+  float: right;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.add-card-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  border-bottom: none;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.fa-plus-circle {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.outline-none {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.submit-list {
+  background-color: #ebecf0!important;
+  color: black!important;;
+}
+
+.list-group-item {
+  font-weight: bold;
 }
